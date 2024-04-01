@@ -81,7 +81,7 @@ DIM = (224, 224)
 
 from keras.models import load_model
 
-final_model = load_model("models/IV3_LSTM4.h5")
+# final_model = load_model("models/IV3_LSTM4.h5")
 # final_model.load_weights("models/IV3_LSTM4_wt.h5")
 
 from Katna.video import Video
